@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="function.js"></script>
+</head>
+<body>
+
+  <input type="text" id="user" onkeyup="noi()">
+  <input type="text" id="suser" onkeyup="noi()">
+  <p>ten day du la:<span id="kq1"></span></p>
+  <p>Click the button to display a time-based greeting:  </p>
+  <input type="number" id="nhap">
+  <button onclick="timso()">Try it</button>
+  <p id="kq"></p>
+  <form action="#" name="frm_grade" method="post">
+    <label for="">Input student name: </label>
+    <input type="text" name="txt_name" value ="">
+    <br/>
+    <label for="">Input score</label>
+    <input type="text" name="txt_score" value="">
+    <input type="button" name="btn_grade" onclick="grade(txt_score.value,txt_name.value)" value="Define Grade">
+  </form>
+  <div id="str_grade"> &nbsp;</div>
+</body>
+</html>
